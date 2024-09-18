@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "./Carousel";
 import { Button } from "@/components/ui/button";
-import { ReactSVG } from "react-svg";
+import { ArrowUpRight } from "lucide-react";
 
 interface Project {
   summary: string;
@@ -24,9 +24,8 @@ const AccordionContentView: React.FC<AccordionContentProps> = ({ project }) => {
           rel="noopener noreferrer"
           className="text-stone-700 underline tracking-wider"
         >
-          <Button variant="link">
-            Ver Proyecto
-            <ReactSVG src="arrow-link.svg" className="mb-2" />
+          <Button variant="linkHover2">
+            Ver Proyecto <ArrowUpRight className="ml-2 mb-1 h-6 w-6" />
           </Button>
         </a>
       </div>

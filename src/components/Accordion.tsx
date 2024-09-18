@@ -33,7 +33,7 @@ export function Accordion({ works }: Props) {
         <div key={`work-${i}`} className="mb-4">
           {/* Cabecera dinamica*/}
           <h1
-            className={`tracking-widest uppercase text-2xl font-bold mb-2 ${
+            className={`tracking-widest font-anton uppercase text-2xl font-bold mb-2 ${
               i % 2 !== 0 ? "text-right" : ""
             }`}
             style={{ color: languageColors[work.lenguage] || "black" }} // Asignar color por nombre del lenguaje
