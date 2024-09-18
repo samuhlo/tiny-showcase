@@ -20,10 +20,11 @@ interface Props {
 
 // Mapeo de colores por lenguaje
 const languageColors: { [key: string]: string } = {
-  react: "#FEC42F",
-  nodejs: "#FF206E",
-  javascript: "#34bdab",
-  html_css: "#d929f0",
+  react: "#61DBFB",
+  nodejs: "#3c873a",
+  javascript: "#F0DB4F",
+  astro: "#d929f0",
+  html_css: "#f06529",
   // Agregar lenguajes
 };
 

@@ -65,6 +65,20 @@
       ]
     },
     {
+      "lenguage": "astro",
+      "projects": [
+        {
+          "name": "Curriculum Web",
+          "summary": "Proyecto desarrollado como parte del aprendizaje de Astro, donde cambiando el cv.json te saca la web con tus datos y lista para imprimir. Uso tambien del plugin de HotKeyPad. Creado siguiendo tutorial de Midudev, basado en el diseño de Bartosz Jarocki",
+          "url": "https://astro-cursoastro.vercel.app/",
+          "images": [
+            "project_images/curriculum1.webp",
+            "project_images/curriculum2.webp"
+          ]
+        }
+      ]
+    },
+    {
       "lenguage": "html_css",
       "projects": [
         {
