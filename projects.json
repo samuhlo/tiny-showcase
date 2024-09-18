@@ -1,0 +1,59 @@
+{
+  "name": "samU13",
+  "github": "https://github.com/samU13",
+  "email": "samu13lop@gmail.com",
+  "image_header": "/header.webp",
+  "works": [
+    {
+      "lenguage": "JavaScript",
+      "projects": [
+        {
+          "name": "Proyecto 1",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sapien faucibus, varius dui vel, volutpat ex. In hac habitasse platea dictumst. Aliquam tempus arcu eu eros suscipit, nec blandit augue blandit. Praesent a hendrerit turpis. Cras vel urna sagittis quam fringilla pharetra eu nec metus. Vestibulum porttitor, elit et efficitur mattis, nisi elit interdum enim, eu placerat enim sem at tellus. Suspendisse mattis lacus non fermentum semper. Quisque accumsan justo ultrices, euismod mauris sit amet, scelerisque dolor. Donec ac ullamcorper turpis. Vivamus ex tellus, pellentesque iaculis fermentum sed, condimentum et orci.",
+          "url": "https://www.google.com",
+          "images": ["/header.webp", "/header.webp"]
+        },
+        {
+          "name": "Proyecto 2",
+          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sapien faucibus, varius dui vel, volutpat ex. In hac habitasse platea dictumst. Aliquam tempus arcu eu eros suscipit, nec blandit augue blandit. Praesent a hendrerit turpis. Cras vel urna sagittis quam fringilla pharetra eu nec metus. Vestibulum porttitor, elit et efficitur mattis, nisi elit interdum enim, eu placerat enim sem at tellus. Suspendisse mattis lacus non fermentum semper. Quisque accumsan justo ultrices, euismod mauris sit amet, scelerisque dolor. Donec ac ullamcorper turpis. Vivamus ex tellus, pellentesque iaculis fermentum sed, condimentum et orci.",
+          "url": "https://www.google.com",
+          "images": ["/header.webp"]
+        }
+      ]
+    },
+    {
+      "lenguage": "Python",
+      "projects": [
+        {
+          "name": "Proyecto 1",
+          "summary": "Descripción del proyecto 1",
+          "url": "https://www.google.com",
+          "images": ["https://www.google.com", "https://www.google.com/1"]
+        },
+        {
+          "name": "Proyecto 2",
+          "summary": "Descripción del proyecto 2",
+          "url": "https://www.google.com",
+          "images": ["https://www.google.com", "https://www.google.com/1"]
+        }
+      ]
+    },
+    {
+      "lenguage": "Java",
+      "projects": [
+        {
+          "name": "Proyecto 1",
+          "summary": "Descripción del proyecto 1",
+          "url": "https://www.google.com",
+          "images": ["https://www.google.com", "https://www.google.com/1"]
+        },
+        {
+          "name": "Proyecto 2",
+          "summary": "Descripción del proyecto 2",
+          "url": "https://www.google.com",
+          "images": ["https://www.google.com", "https://www.google.com/1"]
+        }
+      ]
+    }
+  ]
+}
