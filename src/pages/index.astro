@@ -2,10 +2,11 @@
 import Layout from '../layouts/Layout.astro';
 import Header from '@/components/sections/Header.astro';
 import Works from '@/components/sections/Works.astro';
+import { name } from '@projects';
 
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title=`${name} - Tiny Showcase``>
 	<main>
 		<Header/>
 		<Works/>

@@ -2,56 +2,68 @@
   "name": "samU13",
   "github": "https://github.com/samU13",
   "email": "samu13lop@gmail.com",
-  "image_header": "/header.webp",
+  "image_header": "project_images/header2-nobg.webp",
   "works": [
     {
-      "lenguage": "JavaScript",
+      "lenguage": "react",
       "projects": [
         {
-          "name": "Proyecto 1",
-          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sapien faucibus, varius dui vel, volutpat ex. In hac habitasse platea dictumst. Aliquam tempus arcu eu eros suscipit, nec blandit augue blandit. Praesent a hendrerit turpis. Cras vel urna sagittis quam fringilla pharetra eu nec metus. Vestibulum porttitor, elit et efficitur mattis, nisi elit interdum enim, eu placerat enim sem at tellus. Suspendisse mattis lacus non fermentum semper. Quisque accumsan justo ultrices, euismod mauris sit amet, scelerisque dolor. Donec ac ullamcorper turpis. Vivamus ex tellus, pellentesque iaculis fermentum sed, condimentum et orci.",
-          "url": "https://www.google.com",
-          "images": ["/header.webp", "/header.webp"]
+          "name": "Fast Pizza",
+          "summary": "Aplicación creada con React como parte de un curso para gestionar pedidos de pizza de manera rápida y eficiente. Utiliza Redux para el state management asi como Tailwind para los estilos. Creado siguiendo el curso de Jonas Schmedtmann",
+          "url": "fastpizza-cursoreact.vercel.app",
+          "images": [
+            "project_images/fastpizza1.webp",
+            "project_images/fastpizza2.webp",
+            "project_images/fastpizza3.webp"
+          ]
         },
         {
-          "name": "Proyecto 2",
-          "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet sapien faucibus, varius dui vel, volutpat ex. In hac habitasse platea dictumst. Aliquam tempus arcu eu eros suscipit, nec blandit augue blandit. Praesent a hendrerit turpis. Cras vel urna sagittis quam fringilla pharetra eu nec metus. Vestibulum porttitor, elit et efficitur mattis, nisi elit interdum enim, eu placerat enim sem at tellus. Suspendisse mattis lacus non fermentum semper. Quisque accumsan justo ultrices, euismod mauris sit amet, scelerisque dolor. Donec ac ullamcorper turpis. Vivamus ex tellus, pellentesque iaculis fermentum sed, condimentum et orci.",
-          "url": "https://www.google.com",
-          "images": ["/header.webp"]
+          "name": "The Wild Oasis",
+          "summary": "Proyecto desarrollado como parte de un curso de React, usando Supabase. Uso de Styled-Components, React-Query, React-Router-Dom, etc.Explora la creación de componentes dinámicos y gestión de estado en una aplicación moderna de cabañas. Componentes de dashboard creados de cero, darkmode/lightmode ... Creado siguiendo el curso de Jonas Schmedtmann",
+          "url": "wildoasis-cursoreact.vercel.app",
+          "images": [
+            "project_images/wildoasis3.webp",
+            "project_images/wildoasis2.webp",
+            "project_images/wildoasis4.webp"
+          ]
         }
       ]
     },
     {
-      "lenguage": "Python",
+      "lenguage": "nodejs",
       "projects": [
         {
-          "name": "Proyecto 1",
-          "summary": "Descripción del proyecto 1",
+          "name": "Natours",
+          "summary": "Proyecto desarrollado como parte del aprendizaje de Node.js. Uso de Express, MongoDB, Mongoose, Pug, Stripe, Mailtrap, Mapbox, Nodemailer, JWT, Bcrypt, etc. Creado siguiendo el curso de Jonas Schmedtmann",
           "url": "https://www.google.com",
-          "images": ["https://www.google.com", "https://www.google.com/1"]
-        },
-        {
-          "name": "Proyecto 2",
-          "summary": "Descripción del proyecto 2",
-          "url": "https://www.google.com",
-          "images": ["https://www.google.com", "https://www.google.com/1"]
+          "images": [
+            "project_images/natours1.webp",
+            "project_images/natours2.webp",
+            "project_images/natours3.webp"
+          ]
         }
       ]
     },
     {
-      "lenguage": "Java",
+      "lenguage": "html_css",
       "projects": [
         {
-          "name": "Proyecto 1",
-          "summary": "Descripción del proyecto 1",
-          "url": "https://www.google.com",
-          "images": ["https://www.google.com", "https://www.google.com/1"]
+          "name": "Thunderground",
+          "summary": "Viejo ejercido de landing page hecho con Bootstrap 4 y un poco de JS",
+          "url": "https://samu13.github.io/ejercicioFinalDIW/",
+          "images": [
+            "project_images/finalDIW1.webp",
+            "project_images/finalDIW2.webp"
+          ]
         },
         {
-          "name": "Proyecto 2",
-          "summary": "Descripción del proyecto 2",
-          "url": "https://www.google.com",
-          "images": ["https://www.google.com", "https://www.google.com/1"]
+          "name": "Menu video slider",
+          "summary": "Pruebas de menu con video, un efecto hover y cambio a menu desde landing page. HTML y CSS, con un poco de JS",
+          "url": "https://samu13.github.io/ejercicioNavegacionVideo/",
+          "images": [
+            "project_images/landingvideo1.webp",
+            "project_images/landingvideo2.webp"
+          ]
         }
       ]
     }

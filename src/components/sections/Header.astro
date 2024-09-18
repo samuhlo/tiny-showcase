@@ -5,13 +5,13 @@ import {image_header,name} from '@projects'
 
 
 <Section>
-    <header class="flex content-center justify-center mt-14 gap-4">
-        <figure>
+    <header class="flex flex-col content-center justify-center mt-14 gap-4">
+        <figure class="flex justify-center ">
             <img src={image_header} alt={name} class="aspect-[1/1] object-cover w-80 rounded-md" />
         </figure>
         <div class="flex flex-col justify-center ml-4">
-            <h2 class=" text-2xl font-semibold tracking-tight">{name}'s</h2>
-            <h1 class="font-pacifico border-b pb-2 text-4xl font-semibold tracking-tight first:mt-0">Tiny Showcase!</h1>
+            <h2 class="text-stone-600 text-2xl font-semibold tracking-tight text-center">{name}'s</h2>
+            <h1 class="text-stone-800 font-pacifico pb-2 text-5xl font-semibold text-center tracking-tight first:mt-0">Tiny Showcase!</h1>
         </div>
     </header>
 </Section>
