@@ -22,7 +22,8 @@ interface Props {
 const languageColors: { [key: string]: string } = {
   react: "#FEC42F",
   nodejs: "#FF206E",
-  html_css: "#34bdab",
+  javascript: "#34bdab",
+  html_css: "#d929f0",
   // Agregar lenguajes
 };
 

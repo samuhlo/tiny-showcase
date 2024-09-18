@@ -45,6 +45,26 @@
       ]
     },
     {
+      "lenguage": "javascript",
+      "projects": [
+        {
+          "name": "Bankist",
+          "summary": "Proyecto desarrollado como parte del aprendizaje de JavaScript. Uso de DOM, localStorage, Intl, etc. Creado siguiendo el curso de Jonas Schmedtmann",
+          "url": "https://samu13.github.io/DOM-Bankist/",
+          "images": [
+            "project_images/dom-bankist1.webp",
+            "project_images/dom-bankist2.webp"
+          ]
+        },
+        {
+          "name": "Mapty",
+          "summary": "Proyecto desarrollado como parte del aprendizaje de JavaScript. Uso de Geolocation API, Leaflet, etc. Creado siguiendo el curso de Jonas Schmedtmann",
+          "url": "https://samu13.github.io/jscourse-Mapty/",
+          "images": ["project_images/mapty1.webp"]
+        }
+      ]
+    },
+    {
       "lenguage": "html_css",
       "projects": [
         {
