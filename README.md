@@ -29,9 +29,9 @@ Creado con Astro para solo tener que actualizar el <em>projects.json</em>.
 
 [![Built with Astro](https://astro.badg.es/v2/built-with-astro/tiny.svg)](https://astro.build)
 
-</div>
-
 <img src="portada.webp"></img>
+
+</div>
 
 ## Stack
 
