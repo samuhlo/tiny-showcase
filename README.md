@@ -56,8 +56,9 @@ pnpm create astro@latest -- --template samU13/tiny-showcase
 
 ### 2. Añade tu contenido:
 
-<p>Edita el archivo `projects.json` para crear la lista de proyectos personalizada</p>
-<p>Edita la `const languageColors` para cambiar los colores de los lenguajes.</p>
+Edita el archivo `projects.json` para crear la lista de proyectos personalizada
+<br/>
+Edita la `const languageColors` para cambiar los colores de los lenguajes.
 
 ### 3. Lanza el servidor de desarrollo:
 
