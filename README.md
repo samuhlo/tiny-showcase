@@ -1,6 +1,3 @@
-https://github.com/jakobhoeg/enhanced-button
-custom animation
-
 <div align="center">
 
 <h2>
