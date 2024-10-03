@@ -26,6 +26,12 @@
             "project_images/wildoasis2.webp",
             "project_images/wildoasis4.webp"
           ]
+        },
+        {
+          "name": "DLNL - Resumen IA",
+          "summary": "Proyecto que resume articulos por url, y los traduce al castellano desde cualquier idioma para contarte de que van. Creado en React con Vite, Redux y TailwindCSS, optimizado para manejar el estado de carga y errores.",
+          "url": "https://dlnl-resumenes-ia.vercel.app/",
+          "images": ["project_images/DLNL2.webp", "project_images/DLNL1.webp"]
         }
       ]
     },
