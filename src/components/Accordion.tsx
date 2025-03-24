@@ -14,6 +14,8 @@ interface Props {
       summary: string;
       url: string;
       images: string[];
+      testuser: string;
+      testpass: string;
     }[];
   }[];
 }
