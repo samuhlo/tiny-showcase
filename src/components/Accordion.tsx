@@ -8,7 +8,7 @@ import AccordionContentView from "./AccordionContentView";
 
 interface Props {
   works: {
-    lenguage: string;
+    language: string;
     projects: {
       name: string;
       summary: string;
@@ -38,13 +38,13 @@ export function Accordion({ works }: Props) {
             className={`tracking-widest font-anton uppercase text-2xl font-bold mb-2 relative ${
               i % 2 !== 0 ? "text-right" : "text-left"
             }`}
-            style={{ color: languageColors[work.lenguage] || "black" }}
+            style={{ color: languageColors[work.language] || "black" }}
           >
             {/* Línea antes o después del texto, dependiendo si es impar o par */}
             {i % 2 === 0 ? (
-              <span className="relative z-10">{work.lenguage}</span>
+              <span className="relative z-10">{work.language}</span>
             ) : (
-              <span className="relative z-10">{work.lenguage}</span>
+              <span className="relative z-10">{work.language}</span>
             )}
             {/* Línea usando pseudoelementos */}
             <span
