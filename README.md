@@ -7,8 +7,7 @@
 Creado con Astro para solo tener que actualizar el <em>projects.json</em>.
 </p>
 
-<strong><a href="tiny-showcase.vercel.app
-">LINK</a></strong>
+<strong><a href="https://tiny-showcase.vercel.app/">LINK</a></strong>
 
 </div>
 
