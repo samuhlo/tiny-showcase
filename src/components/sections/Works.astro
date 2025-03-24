@@ -2,11 +2,8 @@
 import Section from "../Section.astro";
 import { Accordion } from "@/components/Accordion";
 import { works } from "@projects";
-
-
-
 ---
 
 <Section>
-    <Accordion works={works} client:idle />
+  <Accordion works={works} client:idle />
 </Section>
