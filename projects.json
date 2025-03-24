@@ -1,16 +1,22 @@
 {
-  "name": "samU13",
-  "github": "https://github.com/samU13",
+  "name": "Samu Lo",
+  "github": "https://github.com/samuhlo-training",
   "email": "samu13lop@gmail.com",
   "image_header": "project_images/header.webp",
   "works": [
     {
-      "lenguage": "react",
+      "language": "react",
       "projects": [
+        {
+          "name": "Movies React",
+          "summary": "Este proyecto es una aplicación de películas construida con React y Vite para hacer un repaso de React. Proporciona una interfaz de usuario para buscar y ver detalles de películas utilizando la API de TMDB",
+          "url": "https://movies-react-repaso.onrender.com/",
+          "images": ["project_images/moviereact.webp"]
+        },
         {
           "name": "Fast Pizza",
           "summary": "Aplicación creada con React como parte de un curso para gestionar pedidos de pizza de manera rápida y eficiente. Utiliza Redux para el state management asi como Tailwind para los estilos. Creado siguiendo el curso de Jonas Schmedtmann",
-          "url": "https://fastpizza-cursoreact.vercel.app",
+          "url": "https://fastpizza-cursoreact.onrender.com/",
           "images": [
             "project_images/fastpizza1.webp",
             "project_images/fastpizza2.webp",
@@ -18,30 +24,49 @@
           ]
         },
         {
+          "name": "Xora App",
+          "summary": "Este proyecto es una aplicación web construida con React y Vite. Es un repaso de Tailwind y React para hacer paginas estaticas con animaciones y interacciones vistosas. Creado siguiendo el curso de JS Mastery",
+          "url": "https://xora-app-liard.vercel.app/",
+          "images": [
+            "project_images/xoraapp1.webp",
+            "project_images/xoraapp2.webp",
+            "project_images/xoraapp3.webp",
+            "project_images/xoraapp4.webp"
+          ]
+        },
+        {
+          "name": "Awwwards Web Style",
+          "summary": "Landing page creada para practicar React y aprender las nociones basicas de GSAP y dar vida a las webs. Creado siguiendo el curso de JS Mastery",
+          "url": "https://awwwards-web.onrender.com/",
+          "images": [
+            "project_images/awwwardsweb1.webp",
+            "project_images/awwwardsweb2.webp",
+            "project_images/awwwardsweb3.webp"
+          ]
+        },
+        {
           "name": "The Wild Oasis",
           "summary": "Proyecto desarrollado como parte de un curso de React, usando Supabase. Uso de Styled-Components, React-Query, React-Router-Dom, etc.Explora la creación de componentes dinámicos y gestión de estado en una aplicación moderna de cabañas. Componentes de dashboard creados de cero, darkmode/lightmode ... Creado siguiendo el curso de Jonas Schmedtmann",
-          "url": "https://wildoasis-cursoreact.vercel.app",
+          "testuser": "testuser@test.com",
+          "testpass": "test1234",
+          "url": "https://wildoasis-cursoreact.vercel.app/",
           "images": [
             "project_images/wildoasis3.webp",
             "project_images/wildoasis2.webp",
             "project_images/wildoasis4.webp"
           ]
-        },
-        {
-          "name": "DLNL - Resumen IA",
-          "summary": "Proyecto que resume articulos por url, y los traduce al castellano desde cualquier idioma para contarte de que van. Creado en React con Vite, Redux y TailwindCSS, optimizado para manejar el estado de carga y errores.",
-          "url": "https://dlnl-resumenes-ia.vercel.app/",
-          "images": ["project_images/DLNL2.webp", "project_images/DLNL1.webp"]
         }
       ]
     },
     {
-      "lenguage": "nodejs",
+      "language": "nodejs",
       "projects": [
         {
           "name": "Natours",
-          "summary": "Proyecto desarrollado como parte del aprendizaje de Node.js. Uso de Express, MongoDB, Mongoose, Pug, Stripe, Mailtrap, Mapbox, Nodemailer, JWT, Bcrypt, etc. Creado siguiendo el curso de Jonas Schmedtmann",
-          "url": "https://natours-cursonode.onrender.com/",
+          "summary": "Proyecto desarrollado como parte del aprendizaje de Node.js. Uso de Express, MongoDB, Mongoose, Pug, Stripe, Mailtrap, Mapbox, Nodemailer, JWT, Bcrypt, etc. Creado siguiendo el curso de Jonas Schmedtmann.",
+          "testuser": "admin@natours.io",
+          "testpass": "test1234",
+          "url": "https://natours-update-cursenode.onrender.com/",
           "images": [
             "project_images/natours1.webp",
             "project_images/natours2.webp",
@@ -51,58 +76,29 @@
       ]
     },
     {
-      "lenguage": "javascript",
+      "language": "javascript",
       "projects": [
         {
           "name": "Bankist",
           "summary": "Proyecto desarrollado como parte del aprendizaje de JavaScript. Uso de DOM, localStorage, Intl, etc. Creado siguiendo el curso de Jonas Schmedtmann",
-          "url": "https://samu13.github.io/DOM-Bankist/",
+          "url": "https://samuhlo-training.github.io/DOM-Bankist/",
           "images": [
             "project_images/dom-bankist1.webp",
             "project_images/dom-bankist2.webp"
           ]
-        },
-        {
-          "name": "Mapty",
-          "summary": "Proyecto desarrollado como parte del aprendizaje de JavaScript. Uso de Geolocation API, Leaflet, etc. Creado siguiendo el curso de Jonas Schmedtmann",
-          "url": "https://samu13.github.io/jscourse-Mapty/",
-          "images": ["project_images/mapty1.webp"]
         }
       ]
     },
     {
-      "lenguage": "astro",
+      "language": "astro",
       "projects": [
         {
           "name": "Curriculum Web",
           "summary": "Proyecto desarrollado como parte del aprendizaje de Astro, donde cambiando el cv.json te saca la web con tus datos y lista para imprimir. Uso tambien del plugin de HotKeyPad. Creado siguiendo tutorial de Midudev, basado en el diseño de Bartosz Jarocki",
-          "url": "https://course-portofolio.vercel.app/",
+          "url": "https://curriculum-astro-curse.vercel.app/",
           "images": [
             "project_images/curriculum1.webp",
             "project_images/curriculum2.webp"
-          ]
-        }
-      ]
-    },
-    {
-      "lenguage": "html_css",
-      "projects": [
-        {
-          "name": "Thunderground",
-          "summary": "Viejo ejercido de landing page hecho con Bootstrap 4 y un poco de JS",
-          "url": "https://samu13.github.io/ejercicioFinalDIW/",
-          "images": [
-            "project_images/finalDIW1.webp",
-            "project_images/finalDIW2.webp"
-          ]
-        },
-        {
-          "name": "Menu video slider",
-          "summary": "Pruebas de menu con video, un efecto hover y cambio a menu desde landing page. HTML y CSS, con un poco de JS",
-          "url": "https://samu13.github.io/ejercicioNavegacionVideo/",
-          "images": [
-            "project_images/landingvideo1.webp",
-            "project_images/landingvideo2.webp"
           ]
         }
       ]

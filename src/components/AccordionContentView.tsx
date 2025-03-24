@@ -7,6 +7,8 @@ interface Project {
   summary: string;
   url: string;
   images: string[];
+  testuser: string;
+  testpass: string;
 }
 
 interface AccordionContentProps {
@@ -17,7 +19,23 @@ const AccordionContentView: React.FC<AccordionContentProps> = ({ project }) => {
   return (
     <div className="flex content-center justify-evenly gap-14 flex-row-reverse flex-wrap-reverse">
       <div className="flex flex-col justify-between">
-        <p className="max-w-80 mb-16 mt-3">{project.summary}</p>
+        <p className="max-w-80 mb-12 mt-3">{project.summary}</p>
+        {
+          /* Test user and password */
+          project.testuser && project.testpass && (
+            <div className="flex flex-col gap-1 mb-6">
+              <p className="text-stone-800 text-sm font-semibold">
+                Usuario prueba:{" "}
+                <span className="text-stone-600">{project.testuser}</span>
+              </p>
+              <p className="text-stone-800 text-sm font-semibold">
+                Contraseña:{" "}
+                <span className="text-stone-600">{project.testpass}</span>
+              </p>
+            </div>
+          )
+        }
+
         <a
           href={project.url}
           target="_blank"
