@@ -7,8 +7,8 @@ interface Project {
   summary: string;
   url: string;
   images: string[];
-  testuser: string;
-  testpass: string;
+  testuser?: string;
+  testpass?: string;
 }
 
 interface AccordionContentProps {

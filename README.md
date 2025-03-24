@@ -40,7 +40,7 @@ Creado con Astro para solo tener que actualizar el <em>projects.json</em>.
 
 ## Empezar
 
-### 1. Usa este [repo](https://github.com/samU13/tiny-showcase) como _template_ de un proyecto de Astro
+### 1. Usa este [repo](https://github.com/samuhlo/tiny-showcase) como _template_ de un proyecto de Astro
 
 - Usa [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
 
