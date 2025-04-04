@@ -27,6 +27,7 @@ const languageColors: { [key: string]: string } = {
   javascript: "#F0DB4F",
   astro: "#d929f0",
   html_css: "#f06529",
+  nextjs: "#f23472",
   // Agregar lenguajes
 };
 
