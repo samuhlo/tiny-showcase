@@ -5,6 +5,21 @@
   "image_header": "project_images/header.webp",
   "works": [
     {
+      "language": "nextjs",
+      "projects": [
+        {
+          "name": "AI Voice Interview Plataform",
+          "summary": "Proyecto de aprendizaje para Next.js, usando Firebase / Vapi / Gemini. Un proyecto donde poder crear y practicar entrevistas de trabajo, hablando en tiempo real con la IA y consiguiendo un feedback posterior. Creado siguiendo el curso de JM Mastery",
+          "url": "https://ai-interview-nextjs-six.vercel.app/",
+          "images": [
+            "project_images/aivoice1.webp",
+            "project_images/aivoice2.webp",
+            "project_images/aivoice3.webp"
+          ]
+        }
+      ]
+    },
+    {
       "language": "react",
       "projects": [
         {
