@@ -6,7 +6,7 @@ import { Github } from "lucide-react";
 
 interface Project {
   summary: string;
-  url: string;
+  url?: string;
   githubUrl?: string;
   images: string[];
   testuser?: string;

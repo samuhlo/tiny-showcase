@@ -12,7 +12,7 @@ interface Props {
     projects: {
       name: string;
       summary: string;
-      url: string;
+      url?: string;
       images: string[];
       testuser?: string;
       testpass?: string;
