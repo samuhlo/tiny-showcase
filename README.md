@@ -1,13 +1,13 @@
 <div align="center">
 
 <h2>
-    <em>Tiny Showcase</em>, un pequeño mostrador de proyectos.
+    <em>Tiny Show</em>, un pequeño mostrador de proyectos.
 </h2>
 <p>
 Creado con Astro para solo tener que actualizar el <em>projects.json</em>.
 </p>
 
-<strong><a href="https://tiny-showcase.vercel.app/">LINK</a></strong>
+<strong><a href="https://tiny-Show.vercel.app/">LINK</a></strong>
 
 </div>
 
@@ -40,7 +40,7 @@ Creado con Astro para solo tener que actualizar el <em>projects.json</em>.
 
 ## Empezar
 
-### 1. Usa este [repo](https://github.com/samuhlo/tiny-showcase) como _template_ de un proyecto de Astro
+### 1. Usa este [repo](https://github.com/samuhlo/tiny-Show) como _template_ de un proyecto de Astro
 
 - Usa [pnpm](https://pnpm.io/installation) como gestor de dependencias y empaquetador.
 
@@ -50,7 +50,7 @@ corepack enable
 corepack prepare pnpm@latest --activate
 
 # Inicializa el proyecto
-pnpm create astro@latest -- --template samU13/tiny-showcase
+pnpm create astro@latest -- --template samU13/tiny-Show
 ```
 
 ### 2. Añade tu contenido:
