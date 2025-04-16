@@ -11,6 +11,7 @@
           "name": "AI Voice Interview Plataform",
           "summary": "Proyecto de aprendizaje para Next.js, usando Firebase / Vapi / Gemini. Un proyecto donde poder crear y practicar entrevistas de trabajo, hablando en tiempo real con la IA y consiguiendo un feedback posterior. Creado siguiendo el curso de JM Mastery",
           "url": "https://ai-interview-nextjs-six.vercel.app/",
+          "githubUrl": "https://github.com/samuhlo-training/ai-interview-nextjs",
           "images": [
             "project_images/aivoice1.webp",
             "project_images/aivoice2.webp",
@@ -20,18 +21,39 @@
       ]
     },
     {
+      "language": "reactnative",
+      "projects": [
+        {
+          "name": "Movies React Native",
+          "summary": "Proyecto de aprendizaje para React Native, usando Appwrite con sistema de registro / autentificacion y seleccion de idioma. Un proyecto donde poder buscar y ver detalles de películas utilizando la API de TMDB. Creado siguiendo el curso de JM Mastery",
+          "githubUrl": "https://github.com/samuhlo-training/movies-react-native",
+          "images": [
+            "project_images/moviesrn1.webp",
+            "project_images/moviesrn2.webp",
+            "project_images/moviesrn3.webp",
+            "project_images/moviesrn4.webp"
+          ]
+        }
+      ]
+    },
+    {
       "language": "react",
       "projects": [
         {
           "name": "Movies React",
-          "summary": "Este proyecto es una aplicación de películas construida con React y Vite para hacer un repaso de React. Proporciona una interfaz de usuario para buscar y ver detalles de películas utilizando la API de TMDB",
+          "summary": "Este proyecto es una aplicación de películas construida con React y Vite para hacer un repaso de React. Uso la base de datos de AppWrite. Proporciona una interfaz de usuario para buscar y ver detalles de películas utilizando la API de TMDB",
           "url": "https://movies-react-repaso.onrender.com/",
-          "images": ["project_images/moviereact.webp"]
+          "githubUrl": "https://github.com/samuhlo-training/movies-react",
+          "images": [
+            "project_images/moviereact.webp",
+            "project_images/moviereact2.webp"
+          ]
         },
         {
           "name": "Fast Pizza",
           "summary": "Aplicación creada con React como parte de un curso para gestionar pedidos de pizza de manera rápida y eficiente. Utiliza Redux para el state management asi como Tailwind para los estilos. Creado siguiendo el curso de Jonas Schmedtmann",
           "url": "https://fastpizza-cursoreact.onrender.com/",
+          "githubUrl": "https://github.com/samuhlo-training/fastpizza-cursoreact",
           "images": [
             "project_images/fastpizza1.webp",
             "project_images/fastpizza2.webp",
@@ -42,6 +64,7 @@
           "name": "Xora App",
           "summary": "Este proyecto es una aplicación web construida con React y Vite. Es un repaso de Tailwind y React para hacer paginas estaticas con animaciones y interacciones vistosas. Creado siguiendo el curso de JS Mastery",
           "url": "https://xora-app-liard.vercel.app/",
+          "githubUrl": "https://github.com/samuhlo-training/xora-app",
           "images": [
             "project_images/xoraapp1.webp",
             "project_images/xoraapp2.webp",
@@ -53,6 +76,7 @@
           "name": "Awwwards Web Style",
           "summary": "Landing page creada para practicar React y aprender las nociones basicas de GSAP y dar vida a las webs. Creado siguiendo el curso de JS Mastery",
           "url": "https://awwwards-web.onrender.com/",
+          "githubUrl": "https://github.com/samuhlo-training/awwwards-web",
           "images": [
             "project_images/awwwardsweb1.webp",
             "project_images/awwwardsweb2.webp",
@@ -65,6 +89,7 @@
           "testuser": "testuser@test.com",
           "testpass": "test1234",
           "url": "https://wildoasis-cursoreact.vercel.app/",
+          "githubUrl": "https://github.com/samuhlo-training/wildoasis-cursoreact",
           "images": [
             "project_images/wildoasis3.webp",
             "project_images/wildoasis2.webp",
@@ -82,6 +107,7 @@
           "testuser": "admin@natours.io",
           "testpass": "test1234",
           "url": "https://natours-update-cursenode.onrender.com/",
+          "githubUrl": "https://github.com/samuhlo-training/natours-update-cursenode",
           "images": [
             "project_images/natours1.webp",
             "project_images/natours2.webp",
@@ -97,6 +123,7 @@
           "name": "Bankist",
           "summary": "Proyecto desarrollado como parte del aprendizaje de JavaScript. Uso de DOM, localStorage, Intl, etc. Creado siguiendo el curso de Jonas Schmedtmann",
           "url": "https://samuhlo-training.github.io/DOM-Bankist/",
+          "githubUrl": "https://github.com/samuhlo-training/DOM-Bankist",
           "images": [
             "project_images/dom-bankist1.webp",
             "project_images/dom-bankist2.webp"
@@ -111,6 +138,7 @@
           "name": "Curriculum Web",
           "summary": "Proyecto desarrollado como parte del aprendizaje de Astro, donde cambiando el cv.json te saca la web con tus datos y lista para imprimir. Uso tambien del plugin de HotKeyPad. Creado siguiendo tutorial de Midudev, basado en el diseño de Bartosz Jarocki",
           "url": "https://curriculum-astro-curse.vercel.app/",
+          "githubUrl": "https://github.com/samuhlo-training/course-portofolio",
           "images": [
             "project_images/curriculum1.webp",
             "project_images/curriculum2.webp"

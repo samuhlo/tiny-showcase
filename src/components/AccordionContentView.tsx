@@ -2,10 +2,12 @@ import React from "react";
 import { Carousel } from "./Carousel";
 import { Button } from "@/components/ui/button";
 import { ArrowUpRight } from "lucide-react";
+import { Github } from "lucide-react";
 
 interface Project {
   summary: string;
-  url: string;
+  url?: string;
+  githubUrl?: string;
   images: string[];
   testuser?: string;
   testpass?: string;
@@ -36,16 +38,32 @@ const AccordionContentView: React.FC<AccordionContentProps> = ({ project }) => {
           )
         }
 
-        <a
-          href={project.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-stone-800 underline tracking-wider"
-        >
-          <Button variant="linkHover2">
-            Ver Proyecto <ArrowUpRight className="ml-2 mb-1 h-6 w-6" />
-          </Button>
-        </a>
+        <div className="flex justify-between">
+          <a
+            href={project.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            className={`text-stone-800 underline tracking-wider ${
+              project.url ? "" : "invisible"
+            }`}
+          >
+            <Button variant="linkHover2">
+              Ver Proyecto <ArrowUpRight className="ml-2 mb-1 h-6 w-6" />
+            </Button>
+          </a>
+          {project.githubUrl && (
+            <a
+              href={project.githubUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-stone-800 underline tracking-wider"
+            >
+              <Button variant="linkHover2">
+                GitHub <Github className="ml-2 mb-1 h-5 w-5" />
+              </Button>
+            </a>
+          )}
+        </div>
       </div>
       <div className="mt-2">
         {project.images.length > 1 ? (
