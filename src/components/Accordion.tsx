@@ -23,6 +23,7 @@ interface Props {
 // Mapeo de colores por lenguaje
 const languageColors: { [key: string]: string } = {
   react: "#61DBFB",
+  reactnative: "#1264FC",
   nodejs: "#3c873a",
   javascript: "#F0DB4F",
   astro: "#d929f0",

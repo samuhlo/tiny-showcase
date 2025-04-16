@@ -43,7 +43,9 @@ const AccordionContentView: React.FC<AccordionContentProps> = ({ project }) => {
             href={project.url}
             target="_blank"
             rel="noopener noreferrer"
-            className="text-stone-800 underline tracking-wider"
+            className={`text-stone-800 underline tracking-wider ${
+              project.url ? "" : "invisible"
+            }`}
           >
             <Button variant="linkHover2">
               Ver Proyecto <ArrowUpRight className="ml-2 mb-1 h-6 w-6" />

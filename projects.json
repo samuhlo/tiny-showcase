@@ -21,14 +21,33 @@
       ]
     },
     {
+      "language": "reactnative",
+      "projects": [
+        {
+          "name": "Movies React Native",
+          "summary": "Proyecto de aprendizaje para React Native, usando Appwrite con sistema de registro / autentificacion y seleccion de idioma. Un proyecto donde poder buscar y ver detalles de películas utilizando la API de TMDB. Creado siguiendo el curso de JM Mastery",
+          "githubUrl": "https://github.com/samuhlo-training/movies-react-native",
+          "images": [
+            "project_images/moviesrn1.webp",
+            "project_images/moviesrn2.webp",
+            "project_images/moviesrn3.webp",
+            "project_images/moviesrn4.webp"
+          ]
+        }
+      ]
+    },
+    {
       "language": "react",
       "projects": [
         {
           "name": "Movies React",
-          "summary": "Este proyecto es una aplicación de películas construida con React y Vite para hacer un repaso de React. Proporciona una interfaz de usuario para buscar y ver detalles de películas utilizando la API de TMDB",
+          "summary": "Este proyecto es una aplicación de películas construida con React y Vite para hacer un repaso de React. Uso la base de datos de AppWrite. Proporciona una interfaz de usuario para buscar y ver detalles de películas utilizando la API de TMDB",
           "url": "https://movies-react-repaso.onrender.com/",
           "githubUrl": "https://github.com/samuhlo-training/movies-react",
-          "images": ["project_images/moviereact.webp"]
+          "images": [
+            "project_images/moviereact.webp",
+            "project_images/moviereact2.webp"
+          ]
         },
         {
           "name": "Fast Pizza",
