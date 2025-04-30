@@ -40,6 +40,16 @@
       "language": "react",
       "projects": [
         {
+          "name": "E-commerce Category Editor",
+          "summary": "Editor visual de categorías para e-commerce que permite organizar productos en filas con diferentes plantillas de alineación, usando un sistema de drag & drop. Creado con React, Zustand y dnd-kit",
+          "url": "https://tubular-treacle-ac4ecd.netlify.app/",
+          "githubUrl": "https://github.com/samuhlo-training/not-a-zara-product-frontend",
+          "images": [
+            "project_images/notazara1.webp",
+            "project_images/notazara2.webp"
+          ]
+        },
+        {
           "name": "Movies React",
           "summary": "Este proyecto es una aplicación de películas construida con React y Vite para hacer un repaso de React. Uso la base de datos de AppWrite. Proporciona una interfaz de usuario para buscar y ver detalles de películas utilizando la API de TMDB",
           "url": "https://movies-react-repaso.onrender.com/",
